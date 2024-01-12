@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stagingeb.com/v1/properties?page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      X-Authorization:
+      - "<FILTERED>"
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Fri, 12 Jan 2024 03:15:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 401 Unauthorized
+      Cache-Control:
+      - no-store
+      Vary:
+      - Accept
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Request-Id:
+      - e044c875-5b7b-473c-ad21-54ee7579fd7e
+      X-Download-Options:
+      - noopen
+      X-Runtime:
+      - '0.011663'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Set-Cookie:
+      - rp=api.stagingeb.com; path=/; expires=Sat, 13 Jan 2024 03:15:07 GMT; SameSite=Lax
+      - source=api.stagingeb.com; path=/; expires=Fri, 12 Jul 2024 02:15:07 GMT; SameSite=Lax
+      X-Powered-By:
+      - Phusion Passenger(R) 6.0.19
+      Server:
+      - nginx/1.18.0 + Phusion Passenger(R) 6.0.19
+    body:
+      encoding: UTF-8
+      string: '{"error":"Your API key is invalid"}'
+  recorded_at: Fri, 12 Jan 2024 03:15:07 GMT
+recorded_with: VCR 6.2.0

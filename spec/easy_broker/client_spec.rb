@@ -60,5 +60,11 @@ RSpec.describe EasyBroker::Client do
 
       it { expect { get }.to raise_error(Faraday::ServerError) }
     end
+
+    context 'when the used API key is invalid', :vcr do
+      subject(:client) { described_class.new(api_key: 'invalid') }
+
+      it { expect { get }.to raise_error(Faraday::UnauthorizedError) }
+    end
   end
 end

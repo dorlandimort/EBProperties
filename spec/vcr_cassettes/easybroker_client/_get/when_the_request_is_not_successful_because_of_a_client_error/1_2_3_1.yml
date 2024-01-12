@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stagingeb.com/v3/properties?page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      X-Authorization:
+      - "<FILTERED>"
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Fri, 12 Jan 2024 01:06:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 404 Not Found
+      Cache-Control:
+      - no-store
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Request-Id:
+      - ca00f005-77ac-4572-9952-03e025720d7d
+      X-Download-Options:
+      - noopen
+      X-Runtime:
+      - '0.007759'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Set-Cookie:
+      - rp=api.stagingeb.com; path=/; expires=Sat, 13 Jan 2024 01:06:13 GMT; SameSite=Lax
+      - source=api.stagingeb.com; path=/; expires=Fri, 12 Jul 2024 01:06:13 GMT; SameSite=Lax
+      X-Powered-By:
+      - Phusion Passenger(R) 6.0.19
+      Server:
+      - nginx/1.18.0 + Phusion Passenger(R) 6.0.19
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Fri, 12 Jan 2024 01:06:13 GMT
+recorded_with: VCR 6.2.0

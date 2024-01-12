@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stagingeb.com/v1/properties/EB-B1027
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      X-Authorization:
+      - "<FILTERED>"
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 12 Jan 2024 01:25:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - no-store
+      Vary:
+      - Accept
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Request-Id:
+      - f59e0b21-b767-4ff7-b283-7792a256f863
+      X-Download-Options:
+      - noopen
+      Etag:
+      - W/"866fe3b019759334d14014c6c4bf5adb"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Runtime:
+      - '0.019510'
+      X-Content-Type-Options:
+      - nosniff
+      Set-Cookie:
+      - rp=api.stagingeb.com; path=/; expires=Sat, 13 Jan 2024 01:25:50 GMT; SameSite=Lax
+      - source=api.stagingeb.com; path=/; expires=Fri, 12 Jul 2024 01:25:50 GMT; SameSite=Lax
+      X-Powered-By:
+      - Phusion Passenger(R) 6.0.19
+      Server:
+      - nginx/1.18.0 + Phusion Passenger(R) 6.0.19
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJwdWJsaWNfaWQiOiJFQi1CMTAyNyIsInRpdGxlIjoiQm9kZWdhIGVuIE5hdWNhbHBhbiIsImRlc2NyaXB0aW9uIjoiRGUgdmVyZGFkIHF1ZSBlc3TDoSBiaWVuIHBhZHJlLiBEZWJlcsOtYW4gZGUgYXByb3ZlY2hhci4iLCJiZWRyb29tcyI6bnVsbCwiYmF0aHJvb21zIjpudWxsLCJoYWxmX2JhdGhyb29tcyI6bnVsbCwicGFya2luZ19zcGFjZXMiOm51bGwsImxvdF9zaXplIjo1Mzk0LjAsImNvbnN0cnVjdGlvbl9zaXplIjoxMjQwLjAsImxvdF9sZW5ndGgiOjAuMCwibG90X3dpZHRoIjowLjAsImZsb29ycyI6bnVsbCwiZmxvb3IiOm51bGwsImFnZSI6bnVsbCwiaW50ZXJuYWxfaWQiOm51bGwsImV4cGVuc2VzIjpudWxsLCJsb2NhdGlvbiI6eyJuYW1lIjoiMmEgQW1wbGlhY2nDs24gUHJlc2lkZW50ZXMsIMOBbHZhcm8gT2JyZWfDs24sIENpdWRhZCBkZSBNw6l4aWNvIiwibGF0aXR1ZGUiOjE5LjM3NDg1NTEsImxvbmdpdHVkZSI6LTk5LjIyNzk4NjQsInN0cmVldCI6Ik5vIHRlIHF1aWVybyBkZWNpciIsInBvc3RhbF9jb2RlIjoiIiwic2hvd19leGFjdF9sb2NhdGlvbiI6dHJ1ZSwiaGlkZV9leGFjdF9sb2NhdGlvbiI6ZmFsc2UsImV4dGVyaW9yX251bWJlciI6IjM0IiwiaW50ZXJpb3JfbnVtYmVyIjoiIn0sInByb3BlcnR5X3R5cGUiOiJCb2RlZ2EgY29tZXJjaWFsIiwiY3JlYXRlZF9hdCI6IjIwMTgtMTItMTRUMTQ6MDQ6NTAtMDY6MDAiLCJ1cGRhdGVkX2F0IjoiMjAyNC0wMS0wNFQyMToxMDoyOC0wNjowMCIsInB1Ymxpc2hlZF9hdCI6IjIwMjMtMDItMTBUMTM6MzQ6MjEtMDY6MDAiLCJvcGVyYXRpb25zIjpbeyJ0eXBlIjoic2FsZSIsImFtb3VudCI6MTI1MDAwMDAuMCwiY3VycmVuY3kiOiJNWE4iLCJmb3JtYXR0ZWRfYW1vdW50IjoiJDEyLDUwMCwwMDAiLCJjb21taXNzaW9uIjp7InR5cGUiOiJwZXJjZW50YWdlIiwidmFsdWUiOiI1LjAifSwidW5pdCI6InRvdGFsIn1dLCJwcm9wZXJ0eV9maWxlcyI6W10sInZpZGVvcyI6W10sInZpcnR1YWxfdG91ciI6bnVsbCwiY29sbGFib3JhdGlvbl9ub3RlcyI6IlNvbG8gc2kgbWUgY2FlbiBiaWVuIiwicHVibGljX3VybCI6Imh0dHBzOi8vd3d3LnN0YWdpbmdlYi5jb20vbXgvaW5tdWVibGUvYm9kZWdhLWVuLW5hdWNhbHBhbiIsInRhZ3MiOltdLCJzaG93X3ByaWNlcyI6dHJ1ZSwic2hhcmVfY29tbWlzc2lvbiI6dHJ1ZSwicHJvcGVydHlfaW1hZ2VzIjpbeyJ0aXRsZSI6IiIsInVybCI6Imh0dHBzOi8vYXNzZXRzLnN0YWdpbmdlYi5jb20vcHJvcGVydHlfaW1hZ2VzLzIxMDI3LzI5NDY3L0VCLUIxMDI3LmpwZz92ZXJzaW9uPTE1NDQ4MTc5MDEifV0sImFnZW50Ijp7ImlkIjoyODI5LCJuYW1lIjoiQWxlamFuZHJvIEJsYW5jbyBaaXZlYyIsImZ1bGxfbmFtZSI6IkFsZWphbmRybyBCbGFuY28gWml2ZWMiLCJtb2JpbGVfcGhvbmUiOiI1NTEyMTIzMTMyIiwicHJvZmlsZV9pbWFnZV91cmwiOiJodHRwczovL2Fzc2V0cy5zdGFnaW5nZWIuY29tL3Byb2ZpbGVfaW1hZ2VzLzI4MjkvQWxleF9fMV9fX3NjYWxlZF8uanBnIiwiZW1haWwiOiJhYmxhbmNvK3BydWViYTVAZWFzeWJyb2tlci5jb20ifSwiZmVhdHVyZXMiOltdfQ==
+  recorded_at: Fri, 12 Jan 2024 01:25:50 GMT
+recorded_with: VCR 6.2.0
